@@ -3,18 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871A4185241D836A0044A397 /* analysisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A4184241D836A0044A397 /* analysisTableViewController.swift */; };
+		872FB17B241AB50100841C98 /* BudgetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FB17A241AB50100841C98 /* BudgetTableViewController.swift */; };
 		87A4790A2419C91E00F79BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A479092419C91E00F79BBB /* AppDelegate.swift */; };
 		87A4790C2419C91E00F79BBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4790B2419C91E00F79BBB /* SceneDelegate.swift */; };
-		87A4790E2419C91E00F79BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4790D2419C91E00F79BBB /* ViewController.swift */; };
 		87A479112419C91E00F79BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A4790F2419C91E00F79BBB /* Main.storyboard */; };
 		87A479132419C92100F79BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A479122419C92100F79BBB /* Assets.xcassets */; };
 		87A479162419C92100F79BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A479142419C92100F79BBB /* LaunchScreen.storyboard */; };
 		87A479212419C92100F79BBB /* Wilsonj_budgetcuts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A479202419C92100F79BBB /* Wilsonj_budgetcuts2Tests.swift */; };
 		87A4792C2419C92100F79BBB /* Wilsonj_budgetcuts2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4792B2419C92100F79BBB /* Wilsonj_budgetcuts2UITests.swift */; };
+		87E03C41241ADB8C00878630 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E03C40241ADB8C00878630 /* Budget.swift */; };
+		87E03C47241C664700878630 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E03C46241C664700878630 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		871A4184241D836A0044A397 /* analysisTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = analysisTableViewController.swift; sourceTree = "<group>"; };
+		872FB17A241AB50100841C98 /* BudgetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTableViewController.swift; sourceTree = "<group>"; };
 		87A479062419C91E00F79BBB /* Wilsonj-budgetcuts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wilsonj-budgetcuts2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A479092419C91E00F79BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A4790B2419C91E00F79BBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87A4790D2419C91E00F79BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87A479102419C91E00F79BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87A479122419C92100F79BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A479152419C92100F79BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		87A479272419C92100F79BBB /* Wilsonj-budgetcuts2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilsonj-budgetcuts2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A4792B2419C92100F79BBB /* Wilsonj_budgetcuts2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wilsonj_budgetcuts2UITests.swift; sourceTree = "<group>"; };
 		87A4792D2419C92100F79BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E03C40241ADB8C00878630 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		87E03C46241C664700878630 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				87A479092419C91E00F79BBB /* AppDelegate.swift */,
 				87A4790B2419C91E00F79BBB /* SceneDelegate.swift */,
-				87A4790D2419C91E00F79BBB /* ViewController.swift */,
+				872FB17A241AB50100841C98 /* BudgetTableViewController.swift */,
 				87A4790F2419C91E00F79BBB /* Main.storyboard */,
+				871A4184241D836A0044A397 /* analysisTableViewController.swift */,
+				87E03C46241C664700878630 /* DetailViewController.swift */,
+				87E03C40241ADB8C00878630 /* Budget.swift */,
 				87A479122419C92100F79BBB /* Assets.xcassets */,
 				87A479142419C92100F79BBB /* LaunchScreen.storyboard */,
 				87A479172419C92100F79BBB /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A4790E2419C91E00F79BBB /* ViewController.swift in Sources */,
+				872FB17B241AB50100841C98 /* BudgetTableViewController.swift in Sources */,
+				871A4185241D836A0044A397 /* analysisTableViewController.swift in Sources */,
 				87A4790A2419C91E00F79BBB /* AppDelegate.swift in Sources */,
+				87E03C47241C664700878630 /* DetailViewController.swift in Sources */,
+				87E03C41241ADB8C00878630 /* Budget.swift in Sources */,
 				87A4790C2419C91E00F79BBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
